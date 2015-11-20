@@ -10,7 +10,6 @@
 		C7098A4E1BFDCBCC00C06DDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7098A4D1BFDCBCC00C06DDB /* main.m */; };
 		C7098A511BFDCBCC00C06DDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7098A501BFDCBCC00C06DDB /* AppDelegate.m */; };
 		C7098A541BFDCBCC00C06DDB /* wallper111.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7098A521BFDCBCC00C06DDB /* wallper111.xcdatamodeld */; };
-		C7098A5C1BFDCBCC00C06DDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7098A5B1BFDCBCC00C06DDB /* Images.xcassets */; };
 		C7098A5F1BFDCBCC00C06DDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7098A5D1BFDCBCC00C06DDB /* LaunchScreen.xib */; };
 		C7098A6B1BFDCBCC00C06DDB /* wallper111Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7098A6A1BFDCBCC00C06DDB /* wallper111Tests.m */; };
 		C7A084C01BFEAEF200A062C8 /* BZClass.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A084BF1BFEAEF200A062C8 /* BZClass.storyboard */; };
@@ -27,6 +26,8 @@
 		C7A084E71BFEB67400A062C8 /* BZNewNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A084E61BFEB67400A062C8 /* BZNewNavigationController.m */; };
 		C7A084EA1BFEB6F200A062C8 /* BZMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A084E91BFEB6F200A062C8 /* BZMainNavigationController.m */; };
 		C7E4DB9C1BFEC73000BE8FAA /* lunboqi.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7E4DB9B1BFEC73000BE8FAA /* lunboqi.plist */; };
+		C7E4DBA11BFF1F9800BE8FAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E4DBA01BFF1F9800BE8FAA /* Images.xcassets */; };
+		C7E4DBA41BFF1FC200BE8FAA /* BZJXXXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4DBA31BFF1FC200BE8FAA /* BZJXXXViewController.m */; };
 		C7EBA7201BFEBC350023E71B /* BZChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */; };
 		C7EBA7231BFEBEA50023E71B /* BZStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA7221BFEBEA50023E71B /* BZStartViewController.m */; };
 		C7EBA7261BFEC3AC0023E71B /* BZNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA7251BFEC3AC0023E71B /* BZNewViewController.m */; };
@@ -50,7 +51,6 @@
 		C7098A4F1BFDCBCC00C06DDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7098A501BFDCBCC00C06DDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C7098A531BFDCBCC00C06DDB /* wallper111.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wallper111.xcdatamodel; sourceTree = "<group>"; };
-		C7098A5B1BFDCBCC00C06DDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7098A5E1BFDCBCC00C06DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C7098A641BFDCBCC00C06DDB /* wallper111Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wallper111Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7098A691BFDCBCC00C06DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +76,9 @@
 		C7A084E81BFEB6F200A062C8 /* BZMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZMainNavigationController.h; sourceTree = "<group>"; };
 		C7A084E91BFEB6F200A062C8 /* BZMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZMainNavigationController.m; sourceTree = "<group>"; };
 		C7E4DB9B1BFEC73000BE8FAA /* lunboqi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lunboqi.plist; sourceTree = "<group>"; };
+		C7E4DBA01BFF1F9800BE8FAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7E4DBA21BFF1FC200BE8FAA /* BZJXXXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZJXXXViewController.h; sourceTree = "<group>"; };
+		C7E4DBA31BFF1FC200BE8FAA /* BZJXXXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZJXXXViewController.m; sourceTree = "<group>"; };
 		C7EBA71E1BFEBC350023E71B /* BZChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZChoiceViewController.h; sourceTree = "<group>"; };
 		C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZChoiceViewController.m; sourceTree = "<group>"; };
 		C7EBA7211BFEBEA50023E71B /* BZStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZStartViewController.h; sourceTree = "<group>"; };
@@ -167,9 +170,9 @@
 		C7A084B11BFEAC2300A062C8 /* 其他 */ = {
 			isa = PBXGroup;
 			children = (
+				C7E4DBA01BFF1F9800BE8FAA /* Images.xcassets */,
 				C7098A4F1BFDCBCC00C06DDB /* AppDelegate.h */,
 				C7098A501BFDCBCC00C06DDB /* AppDelegate.m */,
-				C7098A5B1BFDCBCC00C06DDB /* Images.xcassets */,
 				C7098A5D1BFDCBCC00C06DDB /* LaunchScreen.xib */,
 				C7098A521BFDCBCC00C06DDB /* wallper111.xcdatamodeld */,
 			);
@@ -225,6 +228,8 @@
 				C7EBA71E1BFEBC350023E71B /* BZChoiceViewController.h */,
 				C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */,
 				C7E4DB9B1BFEC73000BE8FAA /* lunboqi.plist */,
+				C7E4DBA21BFF1FC200BE8FAA /* BZJXXXViewController.h */,
+				C7E4DBA31BFF1FC200BE8FAA /* BZJXXXViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -447,12 +452,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7098A5F1BFDCBCC00C06DDB /* LaunchScreen.xib in Resources */,
+				C7E4DBA11BFF1F9800BE8FAA /* Images.xcassets in Resources */,
 				C7E4DB9C1BFEC73000BE8FAA /* lunboqi.plist in Resources */,
 				C7A084C21BFEAF5100A062C8 /* BZChoice.storyboard in Resources */,
 				C7A084C61BFEAFC700A062C8 /* BZMain.storyboard in Resources */,
 				C7A084DA1BFEB50E00A062C8 /* LICENSE in Resources */,
 				C7A084C41BFEAF9400A062C8 /* BZNew.storyboard in Resources */,
-				C7098A5C1BFDCBCC00C06DDB /* Images.xcassets in Resources */,
 				C7A084C01BFEAEF200A062C8 /* BZClass.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +490,7 @@
 				C7098A4E1BFDCBCC00C06DDB /* main.m in Sources */,
 				C7A084DE1BFEB50E00A062C8 /* README.md in Sources */,
 				C7A084DD1BFEB50E00A062C8 /* RDVTabBarItem.m in Sources */,
+				C7E4DBA41BFF1FC200BE8FAA /* BZJXXXViewController.m in Sources */,
 				C7EBA7231BFEBEA50023E71B /* BZStartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

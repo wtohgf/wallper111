@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "u=1009722728,1592602614&fm=23&gp=0-1.jpg"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "NavBar@2x.png"
     },
     {
       "idiom" : "universal",
