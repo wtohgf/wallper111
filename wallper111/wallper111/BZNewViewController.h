@@ -13,5 +13,6 @@
 - (IBAction)week:(UIButton *)sender;
 - (IBAction)best:(UIButton *)sender;
 - (IBAction)top:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *topBtnClick;
 
 @end
