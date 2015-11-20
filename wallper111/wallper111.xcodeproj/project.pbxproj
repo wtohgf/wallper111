@@ -26,6 +26,7 @@
 		C7A084E41BFEB63C00A062C8 /* BZClassNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A084E31BFEB63C00A062C8 /* BZClassNavigationController.m */; };
 		C7A084E71BFEB67400A062C8 /* BZNewNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A084E61BFEB67400A062C8 /* BZNewNavigationController.m */; };
 		C7A084EA1BFEB6F200A062C8 /* BZMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A084E91BFEB6F200A062C8 /* BZMainNavigationController.m */; };
+		C7E4DB9C1BFEC73000BE8FAA /* lunboqi.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7E4DB9B1BFEC73000BE8FAA /* lunboqi.plist */; };
 		C7EBA7201BFEBC350023E71B /* BZChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */; };
 		C7EBA7231BFEBEA50023E71B /* BZStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA7221BFEBEA50023E71B /* BZStartViewController.m */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		C7A084E61BFEB67400A062C8 /* BZNewNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZNewNavigationController.m; sourceTree = "<group>"; };
 		C7A084E81BFEB6F200A062C8 /* BZMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZMainNavigationController.h; sourceTree = "<group>"; };
 		C7A084E91BFEB6F200A062C8 /* BZMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZMainNavigationController.m; sourceTree = "<group>"; };
+		C7E4DB9B1BFEC73000BE8FAA /* lunboqi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lunboqi.plist; sourceTree = "<group>"; };
 		C7EBA71E1BFEBC350023E71B /* BZChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZChoiceViewController.h; sourceTree = "<group>"; };
 		C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZChoiceViewController.m; sourceTree = "<group>"; };
 		C7EBA7211BFEBEA50023E71B /* BZStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZStartViewController.h; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				C7A084C81BFEB0BD00A062C8 /* BZChoiceNavigationController.m */,
 				C7EBA71E1BFEBC350023E71B /* BZChoiceViewController.h */,
 				C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */,
+				C7E4DB9B1BFEC73000BE8FAA /* lunboqi.plist */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7098A5F1BFDCBCC00C06DDB /* LaunchScreen.xib in Resources */,
+				C7E4DB9C1BFEC73000BE8FAA /* lunboqi.plist in Resources */,
 				C7A084C21BFEAF5100A062C8 /* BZChoice.storyboard in Resources */,
 				C7A084C61BFEAFC700A062C8 /* BZMain.storyboard in Resources */,
 				C7A084DA1BFEB50E00A062C8 /* LICENSE in Resources */,
