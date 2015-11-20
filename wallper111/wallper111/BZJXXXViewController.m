@@ -7,6 +7,7 @@
 //
 
 #import "BZJXXXViewController.h"
+#import "RDVTabBar.h"
 
 @interface BZJXXXViewController ()
 
@@ -26,12 +27,14 @@
 -(void)viewWillAppear:(BOOL)animated{
 
     self .navigationController.navigationBarHidden = NO;
-
+    
+    [[self rdv_tabBarController] setTabBarHidden:YES];
 
 }
 -(void)viewWillDisappear:(BOOL)animated{
 
     self.navigationController.navigationBarHidden= YES;
+        [[self rdv_tabBarController] setTabBarHidden:NO];
 }
 
 /*
