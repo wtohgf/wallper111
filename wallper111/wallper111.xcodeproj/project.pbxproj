@@ -26,8 +26,8 @@
 		C7A084E71BFEB67400A062C8 /* BZNewNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A084E61BFEB67400A062C8 /* BZNewNavigationController.m */; };
 		C7A084EA1BFEB6F200A062C8 /* BZMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A084E91BFEB6F200A062C8 /* BZMainNavigationController.m */; };
 		C7E4DB9C1BFEC73000BE8FAA /* lunboqi.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7E4DB9B1BFEC73000BE8FAA /* lunboqi.plist */; };
-		C7E4DBA11BFF1F9800BE8FAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E4DBA01BFF1F9800BE8FAA /* Images.xcassets */; };
 		C7E4DBA41BFF1FC200BE8FAA /* BZJXXXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E4DBA31BFF1FC200BE8FAA /* BZJXXXViewController.m */; };
+		C7E4DBA61BFF20A000BE8FAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E4DBA51BFF20A000BE8FAA /* Images.xcassets */; };
 		C7EBA7201BFEBC350023E71B /* BZChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */; };
 		C7EBA7231BFEBEA50023E71B /* BZStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA7221BFEBEA50023E71B /* BZStartViewController.m */; };
 		C7EBA7261BFEC3AC0023E71B /* BZNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA7251BFEC3AC0023E71B /* BZNewViewController.m */; };
@@ -76,9 +76,9 @@
 		C7A084E81BFEB6F200A062C8 /* BZMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZMainNavigationController.h; sourceTree = "<group>"; };
 		C7A084E91BFEB6F200A062C8 /* BZMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZMainNavigationController.m; sourceTree = "<group>"; };
 		C7E4DB9B1BFEC73000BE8FAA /* lunboqi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lunboqi.plist; sourceTree = "<group>"; };
-		C7E4DBA01BFF1F9800BE8FAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7E4DBA21BFF1FC200BE8FAA /* BZJXXXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZJXXXViewController.h; sourceTree = "<group>"; };
 		C7E4DBA31BFF1FC200BE8FAA /* BZJXXXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZJXXXViewController.m; sourceTree = "<group>"; };
+		C7E4DBA51BFF20A000BE8FAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C7EBA71E1BFEBC350023E71B /* BZChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZChoiceViewController.h; sourceTree = "<group>"; };
 		C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZChoiceViewController.m; sourceTree = "<group>"; };
 		C7EBA7211BFEBEA50023E71B /* BZStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZStartViewController.h; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		C7A084B11BFEAC2300A062C8 /* 其他 */ = {
 			isa = PBXGroup;
 			children = (
-				C7E4DBA01BFF1F9800BE8FAA /* Images.xcassets */,
+				C7E4DBA51BFF20A000BE8FAA /* Images.xcassets */,
 				C7098A4F1BFDCBCC00C06DDB /* AppDelegate.h */,
 				C7098A501BFDCBCC00C06DDB /* AppDelegate.m */,
 				C7098A5D1BFDCBCC00C06DDB /* LaunchScreen.xib */,
@@ -452,7 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7098A5F1BFDCBCC00C06DDB /* LaunchScreen.xib in Resources */,
-				C7E4DBA11BFF1F9800BE8FAA /* Images.xcassets in Resources */,
+				C7E4DBA61BFF20A000BE8FAA /* Images.xcassets in Resources */,
 				C7E4DB9C1BFEC73000BE8FAA /* lunboqi.plist in Resources */,
 				C7A084C21BFEAF5100A062C8 /* BZChoice.storyboard in Resources */,
 				C7A084C61BFEAFC700A062C8 /* BZMain.storyboard in Resources */,
