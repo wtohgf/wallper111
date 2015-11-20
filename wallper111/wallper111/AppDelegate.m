@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BZStartViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    UIWindow *window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+    BZStartViewController *vc = [[BZStartViewController alloc]init];
+    window.rootViewController = vc;
+
+    
+    [window makeKeyAndVisible];
+    
+    
     // Override point for customization after application launch.
     return YES;
 }
