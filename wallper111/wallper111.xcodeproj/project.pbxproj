@@ -29,6 +29,8 @@
 		C7E4DB9C1BFEC73000BE8FAA /* lunboqi.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7E4DB9B1BFEC73000BE8FAA /* lunboqi.plist */; };
 		C7EBA7201BFEBC350023E71B /* BZChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */; };
 		C7EBA7231BFEBEA50023E71B /* BZStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA7221BFEBEA50023E71B /* BZStartViewController.m */; };
+		C7EBA7261BFEC3AC0023E71B /* BZNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA7251BFEC3AC0023E71B /* BZNewViewController.m */; };
+		C7EBA72A1BFECCEC0023E71B /* UIView+NKMoreAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA7291BFECCEC0023E71B /* UIView+NKMoreAttribute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,10 @@
 		C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZChoiceViewController.m; sourceTree = "<group>"; };
 		C7EBA7211BFEBEA50023E71B /* BZStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZStartViewController.h; sourceTree = "<group>"; };
 		C7EBA7221BFEBEA50023E71B /* BZStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZStartViewController.m; sourceTree = "<group>"; };
+		C7EBA7241BFEC3AC0023E71B /* BZNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZNewViewController.h; sourceTree = "<group>"; };
+		C7EBA7251BFEC3AC0023E71B /* BZNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZNewViewController.m; sourceTree = "<group>"; };
+		C7EBA7281BFECCEC0023E71B /* UIView+NKMoreAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NKMoreAttribute.h"; sourceTree = "<group>"; };
+		C7EBA7291BFECCEC0023E71B /* UIView+NKMoreAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NKMoreAttribute.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 		C7098A4A1BFDCBCC00C06DDB /* wallper111 */ = {
 			isa = PBXGroup;
 			children = (
+				C7EBA7271BFECC9F0023E71B /* category */,
 				C7A084CA1BFEB0D200A062C8 /* 主界面 */,
 				C7A084B41BFEAC2B00A062C8 /* 精选 */,
 				C7A084B31BFEAC2700A062C8 /* 分类 */,
@@ -266,6 +273,8 @@
 				C7A084C31BFEAF9400A062C8 /* BZNew.storyboard */,
 				C7A084E51BFEB67400A062C8 /* BZNewNavigationController.h */,
 				C7A084E61BFEB67400A062C8 /* BZNewNavigationController.m */,
+				C7EBA7241BFEC3AC0023E71B /* BZNewViewController.h */,
+				C7EBA7251BFEC3AC0023E71B /* BZNewViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -346,6 +355,15 @@
 				C7A084D81BFEB50E00A062C8 /* RDVTabBarItem.m */,
 			);
 			path = RDVTabBarController;
+			sourceTree = "<group>";
+		};
+		C7EBA7271BFECC9F0023E71B /* category */ = {
+			isa = PBXGroup;
+			children = (
+				C7EBA7281BFECCEC0023E71B /* UIView+NKMoreAttribute.h */,
+				C7EBA7291BFECCEC0023E71B /* UIView+NKMoreAttribute.m */,
+			);
+			name = category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -454,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7A084EA1BFEB6F200A062C8 /* BZMainNavigationController.m in Sources */,
+				C7EBA72A1BFECCEC0023E71B /* UIView+NKMoreAttribute.m in Sources */,
 				C7A084C91BFEB0BD00A062C8 /* BZChoiceNavigationController.m in Sources */,
 				C7A084E71BFEB67400A062C8 /* BZNewNavigationController.m in Sources */,
 				C7098A541BFDCBCC00C06DDB /* wallper111.xcdatamodeld in Sources */,
@@ -462,6 +481,7 @@
 				C7098A511BFDCBCC00C06DDB /* AppDelegate.m in Sources */,
 				C7A084DB1BFEB50E00A062C8 /* RDVTabBar.m in Sources */,
 				C7A084DC1BFEB50E00A062C8 /* RDVTabBarController.m in Sources */,
+				C7EBA7261BFEC3AC0023E71B /* BZNewViewController.m in Sources */,
 				C7098A4E1BFDCBCC00C06DDB /* main.m in Sources */,
 				C7A084DE1BFEB50E00A062C8 /* README.md in Sources */,
 				C7A084DD1BFEB50E00A062C8 /* RDVTabBarItem.m in Sources */,
