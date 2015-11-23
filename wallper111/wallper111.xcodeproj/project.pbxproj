@@ -28,6 +28,9 @@
 		C7A084EA1BFEB6F200A062C8 /* BZMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A084E91BFEB6F200A062C8 /* BZMainNavigationController.m */; };
 		C7EBA7201BFEBC350023E71B /* BZChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */; };
 		C7EBA7231BFEBEA50023E71B /* BZStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA7221BFEBEA50023E71B /* BZStartViewController.m */; };
+		C7F0A9441BFF059F007B8C77 /* BZCUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F0A9431BFF059F007B8C77 /* BZCUITableViewCell.m */; };
+		C7F0A9501BFF12B9007B8C77 /* BZClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F0A94F1BFF12B9007B8C77 /* BZClassViewController.m */; };
+		C7F0A9531BFF1F8E007B8C77 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F0A9521BFF1F8E007B8C77 /* ButtonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,12 @@
 		C7EBA71F1BFEBC350023E71B /* BZChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZChoiceViewController.m; sourceTree = "<group>"; };
 		C7EBA7211BFEBEA50023E71B /* BZStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZStartViewController.h; sourceTree = "<group>"; };
 		C7EBA7221BFEBEA50023E71B /* BZStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZStartViewController.m; sourceTree = "<group>"; };
+		C7F0A9421BFF059F007B8C77 /* BZCUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZCUITableViewCell.h; sourceTree = "<group>"; };
+		C7F0A9431BFF059F007B8C77 /* BZCUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZCUITableViewCell.m; sourceTree = "<group>"; };
+		C7F0A94E1BFF12B9007B8C77 /* BZClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BZClassViewController.h; sourceTree = "<group>"; };
+		C7F0A94F1BFF12B9007B8C77 /* BZClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BZClassViewController.m; sourceTree = "<group>"; };
+		C7F0A9511BFF1F8E007B8C77 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		C7F0A9521BFF1F8E007B8C77 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +248,10 @@
 				C7A084BF1BFEAEF200A062C8 /* BZClass.storyboard */,
 				C7A084E21BFEB63C00A062C8 /* BZClassNavigationController.h */,
 				C7A084E31BFEB63C00A062C8 /* BZClassNavigationController.m */,
+				C7F0A94E1BFF12B9007B8C77 /* BZClassViewController.h */,
+				C7F0A94F1BFF12B9007B8C77 /* BZClassViewController.m */,
+				C7F0A9511BFF1F8E007B8C77 /* ButtonViewController.h */,
+				C7F0A9521BFF1F8E007B8C77 /* ButtonViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -270,6 +283,8 @@
 		C7A084BD1BFEAD4200A062C8 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				C7F0A9421BFF059F007B8C77 /* BZCUITableViewCell.h */,
+				C7F0A9431BFF059F007B8C77 /* BZCUITableViewCell.m */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -453,6 +468,7 @@
 				C7A084C91BFEB0BD00A062C8 /* BZChoiceNavigationController.m in Sources */,
 				C7A084E71BFEB67400A062C8 /* BZNewNavigationController.m in Sources */,
 				C7098A541BFDCBCC00C06DDB /* wallper111.xcdatamodeld in Sources */,
+				C7F0A9501BFF12B9007B8C77 /* BZClassViewController.m in Sources */,
 				C7EBA7201BFEBC350023E71B /* BZChoiceViewController.m in Sources */,
 				C7A084E41BFEB63C00A062C8 /* BZClassNavigationController.m in Sources */,
 				C7098A511BFDCBCC00C06DDB /* AppDelegate.m in Sources */,
@@ -460,7 +476,9 @@
 				C7A084DC1BFEB50E00A062C8 /* RDVTabBarController.m in Sources */,
 				C7098A4E1BFDCBCC00C06DDB /* main.m in Sources */,
 				C7A084DE1BFEB50E00A062C8 /* README.md in Sources */,
+				C7F0A9531BFF1F8E007B8C77 /* ButtonViewController.m in Sources */,
 				C7A084DD1BFEB50E00A062C8 /* RDVTabBarItem.m in Sources */,
+				C7F0A9441BFF059F007B8C77 /* BZCUITableViewCell.m in Sources */,
 				C7EBA7231BFEBEA50023E71B /* BZStartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
