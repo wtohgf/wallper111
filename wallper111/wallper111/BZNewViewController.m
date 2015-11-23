@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setscrollView];
-  
+    __unsafe_unretained __typeof(self) weakSelf = self;
 
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
     [flowLayout setItemSize:CGSizeMake(self.view.width/3 - 1.5, self.view.height/3)];
@@ -43,6 +43,10 @@
     NSLog(@"%lf",_topBtnClick.bottom);
     NSLog(@"%lf",_collectionView.top);
     
+    _collectionView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
+        [weakSelf.collectionView reloadData];
+        [weakSelf.collectionView.mj_footer endRefreshing];
+    }];
     
 }
 
