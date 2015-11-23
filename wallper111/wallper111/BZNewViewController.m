@@ -8,7 +8,7 @@
 
 #import "BZNewViewController.h"
 #import "UIView+NKMoreAttribute.h"
-#import "MJRefresh.h"
+
 @interface BZNewViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property(nonatomic,weak)UICollectionView * collectionView;
@@ -32,30 +32,17 @@
     UICollectionView *cv = [[UICollectionView alloc]initWithFrame:[UIScreen mainScreen].bounds collectionViewLayout:flowLayout];
     
     _collectionView = cv;
-    cv.frame = CGRectMake(0, _topBtnClick.bottom+5, self.view.width, self.view.height - _topBtnClick.bottom );
+    cv.frame = CGRectMake(0, _scrollView.bottom + 5, self.view.width, self.view.height - _topBtnClick.bottom );
     [self.view addSubview:_collectionView];
    
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
      [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"UICollectionViewCell"];
 //     _collectionView.bounces = NO;
+    NSLog(@"%lf",_topBtnClick.bottom);
+    NSLog(@"%lf",_collectionView.top);
     
-}
-- (void)addFooter
-{
-    __unsafe_unretained typeof(self) vc = self;
-    // 添加上拉刷新尾部控件
-    [self.collectionView addFooterWithCallback:^{
-        // 进入刷新状态就会回调这个Block
-        
-        
-        // 模拟延迟加载数据，因此2秒后才调用（真实开发中，可以移除这段gcd代码）
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [vc.collectionView reloadData];
-            // 结束刷新
-            [vc.collectionView footerEndRefreshing];
-        });
-    }];
+    
 }
 
 

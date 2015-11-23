@@ -114,7 +114,7 @@ static NSString * ID = @"UICollectionViewCell";
     UICollectionViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
     cell.backgroundColor = [UIColor blueColor];
     UIImageView *  imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, cell.contentView.width, cell.contentView.height)];
-    NSLog(@"cell %f %f", cell.contentView.width, cell.contentView.height);
+    
         cell.backgroundColor = [UIColor colorWithRed:((10 * indexPath.row) / 255.0) green:((20 * indexPath.row)/255.0) blue:((30 * indexPath.row)/255.0) alpha:1.0f];
     
     for (id subView in cell.contentView.subviews) {
