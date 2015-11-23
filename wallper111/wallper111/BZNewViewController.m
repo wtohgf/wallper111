@@ -8,6 +8,7 @@
 
 #import "BZNewViewController.h"
 #import "UIView+NKMoreAttribute.h"
+#import "MJRefresh.h"
 
 @interface BZNewViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
